@@ -17,9 +17,7 @@ A lightweight REST API proxy for OpenRouter's models API. This proxy allows for 
 
 ### Base Endpoint
 
-```txt
-GET https://llm-models-api.yashikota.workers.dev
-```
+<https://llm-models-api.yashikota.workers.dev>
 
 Returns all models from OpenRouter API.
 
@@ -38,39 +36,27 @@ Returns all models from OpenRouter API.
 
 #### Get all models
 
-```txt
-GET /models
-```
+<https://llm-models-api.yashikota.workers.dev/models>
 
 #### Get only models from OpenAI and Google
 
-```txt
-GET /models?provider=openai,google
-```
+<https://llm-models-api.yashikota.workers.dev/models?provider=openai,google>
 
 #### Get models with at least 32K context length
 
-```txt
-GET /models?min_context=32000
-```
+<https://llm-models-api.yashikota.workers.dev/models?min_context=32000>
 
 #### Get models excluding free ones
 
-```txt
-GET /models?ignore_free=true
-```
+<https://llm-models-api.yashikota.workers.dev/models?ignore_free=true>
 
 #### Get models with suffixes removed from IDs
 
-```txt
-GET /models?strip_suffix=true
-```
+<https://llm-models-api.yashikota.workers.dev/models?strip_suffix=true>
 
 #### Combine multiple filters
 
-```txt
-GET /models?provider=mistralai&min_context=32000&strip_suffix=true
-```
+<https://llm-models-api.yashikota.workers.dev/models?provider=mistralai&min_context=32000&strip_suffix=true>
 
 ## Response Format
 

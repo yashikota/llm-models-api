@@ -140,7 +140,7 @@ app.get("/models", async (c) => {
 
 // Add a health check endpoint
 app.get("/", (c) => {
-  return c.json({ status: "ok", message: "OpenRouter API Proxy is running" });
+  return c.json({ status: "ok", message: "LLM Models API is running" });
 });
 
 export default app;
